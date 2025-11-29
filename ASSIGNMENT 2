@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV BAR</title>
+    <style>
+        .H1{
+            text-decoration-color: blue;
+            height: 200px;
+            margin:50px;
+
+        }
+        
+        .navbar {
+            ckground-color: rgb(70, 30, 180) 7px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 20px ;
+            margin: auto;
+            background-color: antiquewhite;
+
+        }
+        .navbar li a{
+            padding:13px 3px;
+            text-decoration: none;
+            color:rgb(213, 210, 215);
+            background-color: rgb(169, 108, 108);
+        }
+        <navbar input{
+            border:2px solid burlywood
+            border-radius:20px;
+            padding: 3px 17px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <H1>LET'S BUY</H1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">Home</a></li>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">About</a></li>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">Feedback</a></li>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">product </a></li>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">User Review</a></li>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">Help</a></li>
+                <li><a href="https://onaircode.com/html-css-navbar-examples/">Warranty Claims</a></li>
+                <div class="search">
+                    <input type="text"
+                    name="search" id ="search" placeholder="search by requset id">
+                </div>
+            </ul>
+            
+        </nav>
+    </header>
+
+</body>
+
+</html>
