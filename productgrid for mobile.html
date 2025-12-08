@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        {
+        margin : 0;
+        padding : 0;
+        font-family:sans-serif;
+        box-Sizing :border-box;
+
+     }
+      h1{
+       text-align: center;
+       color: green;
+       padding: 20px;
+       background-color: rgb(196, 202, 196);
+     }
+     
+     
+     h1:hover{
+        background-color: aqua;
+        color: white;
+
+     }
+     .items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px 30px;
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+        text-align: center;
+
+     }
+     .item img{
+        width: 40%;
+        height:250px;
+        object-fit: cover;
+        cursor: pointer;
+        transition: 0.4s ease-in;
+    }
+    .item img:hover{
+        transform:scale(1.04);
+    }
+    .item h4{
+        padding: 5px;
+        text-align: center;
+    }
+    .item button{
+        padding: 5px 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: aquamarine;
+        color: rgb(1, 10, 10);
+        cursor: pointer;
+        font-size: 30px;
+        display: block;
+        margin: 5px;
+
+    }
+    .item button:hover{
+        transform: scale(1.5);
+    }
+    @media screen and(max-width:400px) {
+        .food item{
+             font-size:medium;
+             line-height: 50px;
+
+        }
+        .item{
+            margin:0 auto;
+            justify-content: center;
+        }
+        item img{
+            width: 20px;
+            height: 40px;
+            top: auto
+            display:flex
+            
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <h1>FOODIE</h1>
+    
+    
+    <div class="items">
+        <h1 align:center;>WELCOME</h1>
+        
+        <h1 align:center;>famous spicy<br>food</h1>4
+       </div>
+    
+     <section class="items">
+      <div class="item"> 
+        <img src="https://images8.alphacoders.com/369/369063.jpg">
+      <h4>pizza</h4>
+      <button>ORDER</button>
+      </div>
+      <div class="item"> 
+        <img src="https://i1.wp.com/yourfoodfantasy.com/wp-content/uploads/2016/02/Chilli-Paneer-Recipe-Your-Food-Fantasy-4.jpg?fit=2896%2C1944&ssl=1">
+      <h4>chilli paneer</h4>
+      <button>ORDER</button>
+      </div>
+      </section>
+</body>
+</html>
